@@ -1,0 +1,257 @@
+/* New CSS file */
+
+html {
+	height: 100%;
+	padding:0;
+	margin:0;
+}
+
+.container-fluid {
+	height:100%;
+}
+
+body {
+	height:100%;
+	padding:0;
+	margin:0;
+}
+#main {
+	height:100%;
+
+}
+
+#middle {
+	height:100%;
+	background-color: #FADDAF;
+
+}
+
+#left {
+	height:100%;
+	background-image: url('upfeathers.png');
+	background-repeat:repeat;
+
+}
+
+#right {
+	height:100%;
+	background-image: url('upfeathers.png');
+	background-repeat:repeat;
+}
+
+.post {
+	/*height:100%;
+	width:80%;*/
+	margin-top:1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom:5%;
+}
+.pic {
+	overflow:hidden;
+}
+
+.photo {
+	width:100%;
+	border-radius: 25px;
+}
+
+.title {
+	font-family: "Jura";
+	text-align: center;
+	font-size: 2em;
+}
+
+hr {
+	border-color:#473E3F;
+}
+
+#header {
+	text-align:center;
+	}
+
+h1 {
+	color:#EB712F;
+	font-family:"Amatic SC";
+	font-size: 3.5em;
+	padding:0;
+
+}
+
+h1 a {
+	color:#EB712F;
+}
+
+h1 a:hover {
+	color:black;
+	text-decoration: none;
+}
+
+
+#bear {
+	height:30px;
+	margin-bottom: 10px;
+
+}
+
+#mynav li {
+	display: inline; 
+	list-style-type: none;
+	padding-right: 40px;
+	font-family: "Quicksand";
+	font-size: 1.3em;
+}
+
+#mynav li a {
+	text-decoration: none;
+	color:black;
+}
+
+#mynav li .active {
+	text-decoration: underline;
+
+}
+
+#mynav li a:hover {
+	color:#6B0023;
+	text-transform: uppercase;
+}
+
+#mynav ul {
+	text-align: center;
+}
+
+#mynav {
+	text-align: center;
+}
+
+#text {
+	line-height: 180%;
+	text-align:center;
+	color:#472C25;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	font-family: "Quicksand";
+	font-size: 1.1em;
+}
+.subtitle {
+	font-family: "Quicksand";
+	text-align: center;
+	color:#3e3b3b;
+}
+
+#submit {
+	width:10%;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+#submitButton {
+	width:10%;
+	margin-left: 45%;
+	margin-right: 45%;
+	font-family: 'Quicksand';
+}
+
+hr {
+    border-top:2px dotted;
+    color:#472C25;
+    }
+
+#map {
+	margin-right: 10%;
+	margin-left: 10%;
+	width:80%;
+}
+
+#middle li {
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px;
+	list-style-type: none;
+	font-family: 'Quicksand';
+}
+
+#middle li a {
+	color:#EB712F;
+}
+
+
+#middle ul {
+	margin-top: 5%;
+	margin-left:3%;
+	margin-right:3%;
+	width:94%;
+}
+
+#description p{
+	font-family: 'Quicksand';
+	text-align: justify;
+	width:70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 1.3em;
+}
+
+#description h2 {
+	text-align: center;
+	font-family: 'Amatic SC';
+	font-size: 2.5em;
+}
+
+ #slides {
+      display:none;
+    }
+.slidesjs-navigation {
+	font-family: "Amatic SC";
+	color:black;
+	font-size: 2em;
+	text-align: center;
+
+}
+
+.slidesjs-navigation a {
+	text-decoration: none;
+	color:black;
+}
+
+img {
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+}
+
+#contactText {
+	font-family: "Quicksand";
+	font-size:1.5em;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+#contactText a {
+}
+#contactText a:hover {
+	color:#EB712F;
+}
+
+#text a {
+color:#871917;
+}
+
+
+
+#imgGallery a {
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	text-align: center;
+	font-family: "Amatic SC";
+	color:black;
+	font-size: 2.5em;
+
+
+}
+
