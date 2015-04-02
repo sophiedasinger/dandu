@@ -14,29 +14,30 @@ body {
 	height:100%;
 	padding:0;
 	margin:0;
+	background : url('upfeathers.png') 0px 20px repeat;
+
+
+
 }
 #main {
 	height:100%;
-
 }
-
 #middle {
-	height:100%;
+	/*height:100%;*/
 	background-color: #FADDAF;
 
 }
 
 #left {
 	height:100%;
-	background-image: url('upfeathers.png');
-	background-repeat:repeat;
+	/*background-image: url('upfeathers.png');
+	background-repeat:repeat;*/
+
 
 }
 
 #right {
 	height:100%;
-	background-image: url('upfeathers.png');
-	background-repeat:repeat;
 }
 
 .post {
@@ -63,11 +64,17 @@ body {
 }
 
 hr {
+	margin-left: 20%;
+	margin-right: 20%;
+
 	border-color:#473E3F;
 }
 
 #header {
 	text-align:center;
+	background-color: white;
+	width:100%;
+	top:0;
 	}
 
 h1 {
@@ -121,9 +128,14 @@ h1 a:hover {
 	text-align: center;
 }
 
-#mynav {
+/*#mynav {
 	text-align: center;
-}
+	background-color: white;
+	opacity:0.4;
+	position:fixed;
+	width:100%;
+
+}*/
 
 #text {
 	line-height: 180%;
@@ -163,9 +175,19 @@ hr {
 	margin-right: 10%;
 	margin-left: 10%;
 	width:80%;
+	margin-bottom: 10%;
 }
-
-#middle li {
+#donorText ul {
+	font-family: 'Quicksand';
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+}
+#donorText h2{
+	text-align: center;
+	font-family: 'Amatic SC';
+	}
+#dateLinks li {
 	display: inline;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -173,12 +195,16 @@ hr {
 	font-family: 'Quicksand';
 }
 
-#middle li a {
+#dateLinks li a {
 	color:#EB712F;
 }
 
-
-#middle ul {
+#dateLinks {
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#dateLinks ul {
 	margin-top: 5%;
 	margin-left:3%;
 	margin-right:3%;
@@ -251,7 +277,57 @@ color:#871917;
 	font-family: "Amatic SC";
 	color:black;
 	font-size: 2.5em;
+	
 
 
 }
+#imgGallery a:hover {
+    	text-decoration: none;
+    	color:#EB712F;
+}
+
+.col2 {
+	width:10%;
+	float:left;
+}
+
+.col8 {
+	width:80%;
+	float:left;
+}
+
+#mynav {
+	width:100%;
+	background-color: white;
+	top:0;
+}
+
+#mynav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    float:right;
+    width:100vw;
+    overflow-x:hidden;
+}
+
+#coverImage img{
+	width:80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+
+}
+
+h3 {
+	font-family: "Amatic SC";
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 
